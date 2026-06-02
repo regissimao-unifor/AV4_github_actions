@@ -1,0 +1,24 @@
+{
+  "name": "supabase-backend",
+  "version": "1.0.0",
+  "description": "Products CRUD backend (Express + Supabase) with Cypress tests against a mocked Supabase.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test:server": "node test/testServer.js",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "start-server-and-test test:server http://localhost:3001 cy:run"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "start-server-and-test": "^2.0.4"
+  }
+}
