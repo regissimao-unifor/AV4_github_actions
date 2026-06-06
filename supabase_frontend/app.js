@@ -1,4 +1,4 @@
-const productList = document.querySelector('#products');
+const productList = document.querySelector('#products'); 
 const addProductForm = document.querySelector('#add-product-form');
 const updateProductForm = document.querySelector('#update-product-form');
 const updateProductId = document.querySelector('#update-id');
