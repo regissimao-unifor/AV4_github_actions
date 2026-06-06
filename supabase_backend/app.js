@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('express'); 
 const supabaseClient = require('@supabase/supabase-js');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
